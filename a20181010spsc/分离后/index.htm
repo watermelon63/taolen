@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="Tencent-CP" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="Description" content="火影忍者圆梦计划启动，积分兑换忍者碎片，助力忍者招募圆梦。" />
+<meta name="Keywords" content="火影忍者，忍者碎片，S忍碎片，活动，礼包" />
+<!-- 页面设计：南京欣海 | 页面制作：南京欣海 | 创建：2018-10-11 更新：| 团队博客：http://tgideas.qq.com/ -->
+<title>火影忍者碎片圆梦计划</title>
+<link rel="stylesheet" type="text/css" href="css/comm.css"/>
+</head>
+<body>
+
+<div class="wrap">
+	<header class="head pr">
+		<h1 class="hide">忍者圆梦计划</h1>
+		<a class="logo1 db pa sp" href="javascript:;">火影忍者</a>
+		<a class="logo2 db pa sp" href="javascript:;">QQ专属</a>
+		<a class="logo3 db pa sp" href="javascript:;">企鹅电竞</a>
+		<a class="btn_start sp db pa" href="javascript:TGDialogS('test3');" title="进入游戏">进入游戏</a>
+		<div class="z-login">
+		       <div id="unlogin"><!--您好，请    <a href="javascript:login();">【登录】</a>--> <a href="#">绑定大区</a></div>
+		       <div id="logined" style="display:none;">hi，<span id='login_nickname_span'></span><span id='login_qq_span'></span><a href="javascript:logout();">注销</a></div>
+		</div><!--z-login结束-->
+	</header>	
+	<section class="content">
+		<div class="section1">
+           <p class="sec1-tit">金币赚积分，圆那些年没机会填补的坑</p>
+           <p class="sec1-txt">游戏内消耗1金币可获得1积分，积分可用于兑换下方忍者碎片</p>
+           <span class="my-jf">我的积分：<em>&nbsp;&nbsp;&nbsp;&nbsp;</em></span>
+           <div class="sec1-under">
+           	<!--sec1-box1后面加上on表示解锁后状态，去掉on则表示未解锁状态-->
+           	  <div class="sec1-box1 on">
+           	  	<div class="box-left sp">
+           	  	    <p>累计<br/>充值<br/>50元</p>
+           	  	</div><!--box-left end-->
+           	  	<div class="box-right">
+           	  	 	<p class="box-level">S忍：680积分/片<span>1/1</span></p>
+           	  	 	<ul>
+           	  	 		<li>
+           	  	 			<a href="javascript:TGDialogS('test1');">
+           	  	 			   <img src="img/img1-1.png" alt="神秘面具男" />
+           	  	 			   <p>神秘面具男</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img1-2.png" alt="波风水门" />
+           	  	 			<p>波风水门</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img1-3.png" alt="千手扉间" />
+           	  	 			<p>千手扉间</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img1-4.png" alt="天道佩恩" />
+           	  	 			<p>天道佩恩</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 	</ul>
+           	  	 	<div class="clock1">
+           	  	 		<div class="clock1-bg"></div>
+           	  	 		<a class="clock-img sp" href="#"></a>
+           	  	 		<p>活动期间游戏内累计充值50元(不包含点券)即可解锁</p>
+           	  	 	</div><!--clock1 end-->
+           	  	</div><!--box-right end-->
+           	  </div><!--sec1-box1 end-->
+           	  <!--sec1-box2后面加上on表示解锁后状态，去掉on则表示未解锁状态-->
+           	  <div class="sec1-box2 on">
+           	  	<div class="box-left2 sp">
+           	  	    <p>累计<br/>充值<br/>25元</p>
+           	  	</div><!--box-left end-->
+           	  	<div class="box-right2">
+           	  	 	<p class="box-level">A忍：480积分/片<span>1/1</span></p>
+           	  	 	<ul class="ul1">
+           	  	 		<li style="margin-left:0.05rem;">
+           	  	 			<a href="javascript:TGDialogS('test1');">
+           	  	 			<img src="img/img1-5.png" alt="蝎" />
+           	  	 			<p>蝎</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img1-6.png" alt="宇智波鼬" />
+           	  	 			<p>宇智波鼬</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img1-7.png" alt="小南" />
+           	  	 			<p>小南</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li style="margin-left:0.8rem;">
+           	  	 			<a href="#">
+           	  	 			<img src="img/img1-8.png" alt="宇智波止水" />
+           	  	 			<p>宇智波止水</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img1-9.png" alt="迪达拉" />
+           	  	 			<p>迪达拉</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 	</ul>
+           	  	 	<p class="box-level">B忍：100积分/片<span>3/3</span></p>
+           	  	 	<ul class="ul2">
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img2-1.png" alt="夕日红" />
+           	  	 			<p>夕日红</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img2-2.png" alt="春野樱[疾风传]" />
+           	  	 			<p>春野樱[疾风传]</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img2-3.png" alt="李洛克[疾风传]" />
+           	  	 			<p>李洛克[疾风传]</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img2-4.png" alt="君麻吕[咒印]" />
+           	  	 			<p>君麻吕[咒印]</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img2-5.png" alt="漩涡玖辛奈" />
+           	  	 			<p>漩涡玖辛奈</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img2-6.png" alt="白" />
+           	  	 			<p>白</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img2-7.png" alt="旗木卡卡西[少年]" />
+           	  	 			<p style="line-height: 0.16rem;font-size:0.16rem;padding-top:0.03rem;">旗木卡卡西<br/>[少年]</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 		<li>
+           	  	 			<a href="#">
+           	  	 			<img src="img/img2-8.png" alt="御手洗红豆" />
+           	  	 			<p>御手洗红豆</p>
+           	  	 			</a>
+           	  	 		</li>
+           	  	 	</ul>
+           	  	 	<div class="clock1">
+           	  	 		<div class="clock1-bg"></div>
+           	  	 		<a class="clock-img sp" href="#"></a>
+           	  	 		<p>活动期间游戏内累计充值25元(不包含点券)即可解锁</p>
+           	  	 	</div><!--clock1 end-->
+           	  	</div><!--box-right end-->
+           	  </div><!--sec1-box1 end-->
+           </div><!--sec1-under end-->
+		</div><!--section1 end-->
+		<div class="section2">
+		   <p class="sec1-tit">突破兑换次数，我需要的不止一片</p>
+           <p class="sec1-txt">抽中奖品不会重复获得。限抽9次。次数增加可能会有延迟，<br/>请刷新页面</p>
+           <div class="list-box">
+           	 <ul>
+           	 	<!--加上sel类名显示有灰色蒙版，则表示已经获得过的道具-->
+           	 	<li class="sel">
+           	 		<div class="card-bg sp">
+           	 			<div class="card-left">兑换次数<br/>+1</div>
+           	 			<div class="card-right">S<br/>忍<br/>碎<br/>片</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 		<div class="z-c"></div>
+           	 	</li>
+           	 	<li>
+           	 		<div class="card-bg sp">
+           	 			<div class="card-left">兑换次数<br/>+2</div>
+           	 			<div class="card-right">S<br/>忍<br/>碎<br/>片</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 	</li>
+           	 	<li>
+           	 		<div class="card-bg sp">
+           	 			<div class="card-left">兑换次数<br/>+1</div>
+           	 			<div class="card-right">S<br/>忍<br/>碎<br/>片</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 	</li>
+           	 	<li>
+           	 		<div class="card-bg sp">
+           	 			<div class="card-left">兑换次数<br/>+2</div>
+           	 			<div class="card-right">A<br/>忍<br/>碎<br/>片</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 	</li>
+           	 	<li>
+           	 		<div class="card-bg sp">
+           	 			<div class="card-img">
+           	 				<img src="img/money.png" alt="金币" />
+           	 			</div>
+           	 			<div class="card-num">金币<br/>×60</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 	</li>
+           	 	<li>
+           	 		<div class="card-bg sp">
+           	 			<div class="card-left">兑换次数<br/>+2</div>
+           	 			<div class="card-right">B<br/>忍<br/>碎<br/>片</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 	</li>
+           	 	<li>
+           	 		<div class="card-bg sp">
+           	 			<div class="card-left">兑换次数<br/>+1</div>
+           	 			<div class="card-right">B<br/>忍<br/>碎<br/>片</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 	</li>
+           	 	<li>
+           	 		<div class="card-bg sp">
+           	 			<div class="card-left">兑换次数<br/>+3</div>
+           	 			<div class="card-right">B<br/>忍<br/>碎<br/>片</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 	</li>
+           	 	<li>
+           	 		<div class="card-bg sp">
+           	 			<div class="card-img">
+           	 				<img src="img/money.png" alt="金币" />
+           	 			</div>
+           	 			<div class="card-num">金币<br/>×100</div>
+           	 			<div class="jb sp"></div>
+           	 		</div>
+           	 	</li>
+           	 </ul>
+           	 <a class="cj-btn1 sp" title="抽一次" href="#">
+           	 	<span>消耗60积分</span>
+           	 </a>
+           	 <a class="cj-btn2 sp" title="抽一次" href="#">
+           	 	<span>购买并打赏指定道具</span>
+           	 	<div class="sp jb-hui"></div>
+           	 </a>
+           </div><!--list-box end-->
+		</div><!--section2 end-->
+		<div class="section3">
+			<p class="sec1-tit">每日任务领积分，我的忍者不是梦</p>
+            <p class="sec1-txt">完成下方任务可领取对应积分，每个任务每天仅可完成一次</p>
+            <div class="sec3-under">
+            	<div class="row1">
+            		<div class="task-name">
+            			<p>任<br/>务<br/>一</p>
+            		</div><!--task-name end-->
+            		<div class="zb-img">
+            			<img src="img/show1.png" alt="直播间图"/>
+            		</div><!--zb-img end-->
+            		<div class="row-btn">
+            			<a href="#" class="btn-lo sp" title="登录企鹅电竞"></a>
+            			<a href="#" class="btn-lq sp" title="领取5积分"></a>
+            		</div>
+            	</div><!--row1 end-->
+            	<div class="row1">
+            		<div class="task-name">
+            			<p>任<br/>务<br/>二</p>
+            		</div><!--task-name end-->
+            		<div class="see-img see-img1">
+            			<p>观看火影直播3分钟</p>
+            			<a href="#" class="btn-lingqu1 sp" title="领取10积分"></a>
+            		</div><!--see-img end-->
+            		<div class="see-img see-img2">
+            			<p>观看火影直播10分钟</p>
+            			<a href="#" class="btn-lingqu2 sp" title="领取15积分"></a>
+            		</div><!--see-img end-->
+            	</div><!--row1 end-->
+            	<div class="row1">
+            		<div class="task-name">
+            			<p>任<br/>务<br/>三</p>
+            		</div><!--task-name end-->
+            		<div class="person">
+            			<img src="img/hea1.png" title="主播图"/>
+            			<a href="#" class="btn-gz sp" title="关注主播"></a>
+            		    <a href="#" class="btn-jf sp" title="领取5积分"></a>
+            		</div>
+            		<div class="person">
+            			<img src="img/hea2.png" title="主播图"/>
+            			<a href="#" class="btn-gz sp" title="关注主播"></a>
+            		    <a href="#" class="btn-jf sp" title="领取5积分"></a>
+            		</div>
+            	</div><!--row1 end-->
+            	<a href="javascript:TGDialogS('test5');" class="zb-more sp" title="更多直播专区"></a>
+            </div><!--sec3-under end-->
+		</div><!--section3 end-->
+	    <div class="section4">
+	    	<ul>
+	    		<li>
+	    			<span class="dot sp">1</span>
+	    			<p>活动时间：10月19日-10月25日</p>
+	    		</li>
+	    		<li>
+	    			<span class="dot sp">2</span>
+	    			<p>玩家在游戏内累计<em>充值满25元</em>可解锁B/A忍兑换活动，<em>累计充值50元</em>可解锁B/A/S忍碎片兑换活动。</p>
+	    		</li>
+	    		<li>
+	    			<span class="dot sp">3</span>
+	    			<p>玩家在游戏内消耗金币可获得等值积分，<em>1金币=1积分</em>。消耗对应积分可兑换忍者碎片。<br/>玩家初始兑换次数：S忍碎片1次、A忍碎片1次，B忍碎片3次。</p>
+	    		</li>
+	    		<li>
+	    			<span class="dot sp">4</span>
+	    			<p>玩家<em>消耗60积分</em>或完成打赏主播可获得一次抽奖机会，<em>抽中奖品将不会重复获得</em>，最多可抽奖9次获得全部奖励。</p>
+	    		</li>
+	    		<li>
+	    			<span class="dot sp">5</span>
+	    			<p>玩家完成指定任务可获得对应积分，每个任务每天可完成一次。</p>
+	    		</li>
+	    		<li>
+	    			<span class="dot sp">6</span>
+	    			<p>玩家如果使用外挂、作弊器以及其他不正当的方式参加本活动的，腾讯有权收回您非法获得的全部礼品，并就相关行为给予处罚！</p>
+	    		</li>
+	    		
+	    	</ul>
+	    </div>
+	</section>
+	<footer class="foot">
+		<img src="img/foot.jpg"/>
+		<p class="foot_text">腾讯公司保留在法律规定的范围内对本次活动解释的权利</p>
+	</footer>
+</div>
+<!--xxxx碎片 弹窗1-->
+<div class="pop pop1" id="test1" style="display:none;">
+	<div class="pop-nr1">
+	    <p class="tc-tit">确定消耗<span>680积分</span>兑换一个<span>天道佩恩碎片</span>吗？</p>
+	    <ul>
+	    	<li>
+	    		<!--17张img道具图，display:none表示隐藏道具，display:block表示显示当前道具-->
+	    		<!--img1-1到img1-4表示680积分的碎片-->
+	    		<img src="img/tc-img1-1.png" alt="神秘面具男" style="display: none;"/>
+	    		<img src="img/tc-img1-2.png" alt="波风水门" style="display: none;"/>
+	    		<img src="img/tc-img1-3.png" alt="千手扉间" style="display: none;"/>
+	    		<img src="img/tc-img1-4.png" alt="天道佩恩" style="display: none;"/>
+	    		<!--img1-5到img1-9表示480积分的碎片-->
+	    		<img src="img/tc-img1-5.png" alt="蝎" style="display: none;"/>
+	    		<img src="img/tc-img1-6.png" alt="宇智波鼬" style="display: none;"/>
+	    		<img src="img/tc-img1-7.png" alt="小南" style="display: none;"/>
+	    		<img src="img/tc-img1-8.png" alt="宇智波止水" style="display: none;"/>
+	    		<img src="img/tc-img1-9.png" alt="迪达拉" style="display: none;"/>
+	    		<!--img2-1到img2-8表示100积分的碎片-->
+	    		<img src="img/tc-img2-1.png" alt="夕日红" style="display: none;"/>
+	    		<img src="img/tc-img2-2.png" alt="春野樱[疾风传]" style="display: block;"/>
+	    		<img src="img/tc-img2-3.png" alt="李洛克[疾风传]" style="display: none;"/>
+	    		<img src="img/tc-img2-4.png" alt="君麻吕[咒印]" style="display: none;"/>
+	    		<img src="img/tc-img2-5.png" alt="漩涡玖辛奈" style="display: none;"/>
+	    		<img src="img/tc-img2-6.png" alt="白" style="display: none;"/>
+	    		<img src="img/tc-img2-7.png" alt="旗木卡卡西[少年]" style="display: none;"/>
+	    		<img src="img/tc-img2-8.png" alt="御手洗红豆" style="display: none;"/>
+	    		<p>春野樱[疾风传]</p>
+	    	</li>
+	    </ul>
+    </div>
+    <a href="javascript:closeDialog();" class="btn-again sp" title="再想想"></a>
+    <a href="javascript:;" class="btn-dh sp" title="兑换" id="BTNSHARE"></a>
+    <a class="closed sp" href="javascript:closeDialog();" title="关闭"></a>
+</div>
+<!--恭喜你成功兑换xxx碎片×1，请至游戏内查收~ 弹窗2-->
+<div class="pop pop2" id="test2" style="display:none;">
+	<div class="pop-nr2">
+	    <p class="tc-tit">恭喜你成功兑换<span>天道佩恩碎片×1</span>，<br/>请至游戏内查收~</p>
+	    <ul>
+	    	<li>
+	    		<!--17张img道具图，display:none表示隐藏道具，display:block表示显示当前道具-->
+	    		<!--img1-1到img1-4表示680积分的碎片-->
+	    		<img src="img/tc-img1-1.png" alt="神秘面具男" style="display: none;"/>
+	    		<img src="img/tc-img1-2.png" alt="波风水门" style="display: none;"/>
+	    		<img src="img/tc-img1-3.png" alt="千手扉间" style="display: none;"/>
+	    		<img src="img/tc-img1-4.png" alt="天道佩恩" style="display: none;"/>
+	    		<!--img1-5到img1-9表示480积分的碎片-->
+	    		<img src="img/tc-img1-5.png" alt="蝎" style="display: none;"/>
+	    		<img src="img/tc-img1-6.png" alt="宇智波鼬" style="display: none;"/>
+	    		<img src="img/tc-img1-7.png" alt="小南" style="display: none;"/>
+	    		<img src="img/tc-img1-8.png" alt="宇智波止水" style="display: none;"/>
+	    		<img src="img/tc-img1-9.png" alt="迪达拉" style="display: none;"/>
+	    		<!--img2-1到img2-8表示100积分的碎片-->
+	    		<img src="img/tc-img2-1.png" alt="夕日红" style="display: none;"/>
+	    		<img src="img/tc-img2-2.png" alt="春野樱[疾风传]" style="display: block;"/>
+	    		<img src="img/tc-img2-3.png" alt="李洛克[疾风传]" style="display: none;"/>
+	    		<img src="img/tc-img2-4.png" alt="君麻吕[咒印]" style="display: none;"/>
+	    		<img src="img/tc-img2-5.png" alt="漩涡玖辛奈" style="display: none;"/>
+	    		<img src="img/tc-img2-6.png" alt="白" style="display: none;"/>
+	    		<img src="img/tc-img2-7.png" alt="旗木卡卡西[少年]" style="display: none;"/>
+	    		<img src="img/tc-img2-8.png" alt="御手洗红豆" style="display: none;"/>
+	    		<p>春野樱[疾风传]</p>
+	    	</li>
+	    </ul>
+    </div>
+    <a href="javascript:closeDialog();" class="btn-gg sp" title="再逛逛"></a>
+    <a href="javascript:;" class="btn-goin sp" title="进入游戏"></a>
+    <a class="closed sp" href="javascript:closeDialog();" title="关闭"></a>
+</div>
+<!--对不起，您当前积分不足~ 弹窗3-->
+<div class="pop pop3" id="test3" style="display:none;">
+	<div class="pop-nr3">
+	    <p class="tc-txt">对不起，您当前积分不足~</p>
+    </div>
+    <a href="javascript:closeDialog();" class="btn-true sp" title="确定"></a>
+    <a class="closed sp" href="javascript:closeDialog();" title="关闭"></a>
+</div>
+<!--对不起，您当前已无兑换次数~ 弹窗4-->
+<div class="pop pop3" id="test4" style="display:none;">
+	<div class="pop-nr3">
+	    <p class="tc-txt">对不起，您当前已无兑换次数~</p>
+    </div>
+    <a href="javascript:closeDialog();" class="btn-true sp" title="确定"></a>
+    <a class="closed sp" href="javascript:closeDialog();" title="关闭"></a>
+</div>
+<!--助力主播 弹窗5-->
+<div class="pop pop5" id="test5" style="display:none;">
+	<div class="pop-nr5">
+	    <p class="tc-zb">打赏主播指定火影道具<span>【一乐拉面】</span>，<br/>打赏一次可获得一次抽奖机会。</p>
+	    <div class="zb-under">
+	    	<div class="zb-row zb-row1">
+	    		<div class="row-img ">
+	    			<img src="img/tc-zb1.png" alt="C凯" />
+	    			<p>C凯</p>
+	    		</div><!--row-img end-->
+	    		<div class="row-wa">
+		    		<div class="row-txt">
+		    			主播介绍：介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+		    		</div><!--row-txt end-->
+		    		<a class="btn-ta sp" href="javascript:;" title="关注ta"></a>
+		    		<a class="btn-da sp" href="javascript:;" title="打赏"></a>
+	    		</div><!--row-wa end-->
+	    	</div><!--zb-row end-->
+	    	<div class="zb-row zb-row2">
+	    		<div class="row-wa">
+		    		<div class="row-txt">
+		    			主播介绍：介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+		    		</div><!--row-txt end-->
+		    		<a class="btn-ta sp" href="javascript:;" title="关注ta"></a>
+		    		<a class="btn-da sp" href="javascript:;" title="打赏"></a>
+	    		</div><!--row-wa end-->
+	    		<div class="row-img">
+	    			<img src="img/tc-zb2.png" alt="西瓜" />
+	    			<p>西瓜</p>
+	    		</div><!--row-img end-->
+	    	</div><!--zb-row end-->
+	    	<div class="zb-row zb-row1">
+	    		<div class="row-img ">
+	    			<img src="img/tc-zb3.png" alt="HG小白" />
+	    			<p>HG小白</p>
+	    		</div><!--row-img end-->
+	    		<div class="row-wa">
+		    		<div class="row-txt">
+		    			主播介绍：介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+		    		</div><!--row-txt end-->
+		    		<a class="btn-ta sp" href="javascript:;" title="关注ta"></a>
+		    		<a class="btn-da sp" href="javascript:;" title="打赏"></a>
+	    		</div><!--row-wa end-->
+	    	</div><!--zb-row end-->
+	    	<div class="zb-row zb-row2">
+	    		<div class="row-wa">
+		    		<div class="row-txt">
+		    			主播介绍：介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+		    		</div><!--row-txt end-->
+		    		<a class="btn-ta sp" href="javascript:;" title="关注ta"></a>
+		    		<a class="btn-da sp" href="javascript:;" title="打赏"></a>
+	    		</div><!--row-wa end-->
+	    		<div class="row-img">
+	    			<img src="img/tc-zb4.png" alt="旗木卡卡西" />
+	    			<p style="font-size:0.16rem;letter-spacing:-0.01rem;">旗木卡卡西</p>
+	    		</div><!--row-img end-->
+	    	</div><!--zb-row end-->
+	    	<div class="zb-row zb-row1">
+	    		<div class="row-img ">
+	    			<img src="img/tc-zb5.png" alt="守鹤" />
+	    			<p>守鹤</p>
+	    		</div><!--row-img end-->
+	    		<div class="row-wa">
+		    		<div class="row-txt">
+		    			主播介绍：介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+		    		</div><!--row-txt end-->
+		    		<a class="btn-ta sp" href="javascript:;" title="关注ta"></a>
+		    		<a class="btn-da sp" href="javascript:;" title="打赏"></a>
+	    		</div><!--row-wa end-->
+	    	</div><!--zb-row end-->
+	    </div><!--zb-under end-->
+	    <a href="#" class="btn-dashen sp" title="更多大神主播"></a>
+    </div>
+    <a class="closed2 sp" href="javascript:closeDialog();" title="关闭"></a>
+</div>
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/comm.js"></script>
+<script src="js/milo.js"></script>
+</html>
